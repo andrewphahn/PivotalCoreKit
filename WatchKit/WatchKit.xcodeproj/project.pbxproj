@@ -31,6 +31,8 @@
 		AEB03ED21A3F9FFF002404BC /* CorgiTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB03ED11A3F9FFF002404BC /* CorgiTableController.m */; };
 		AEB03EDE1A3FB366002404BC /* MapController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB03EDD1A3FB366002404BC /* MapController.m */; };
 		AED5709C1A3A4786004ABADA /* CorgisController.m in Sources */ = {isa = PBXBuildFile; fileRef = AED5709B1A3A4786004ABADA /* CorgisController.m */; };
+		B35D670A1B8D26C800703D89 /* WKExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B35D67081B8D26C800703D89 /* WKExtension.h */; settings = {ASSET_TAGS = (); }; };
+		B35D670B1B8D26C800703D89 /* WKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B35D67091B8D26C800703D89 /* WKExtension.m */; settings = {ASSET_TAGS = (); }; };
 		B83AC2291A5DF12400A35BD6 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B83AC2281A5DF12400A35BD6 /* NotificationController.m */; };
 		B83AC22D1A5E191C00A35BD6 /* PCKWKInterfaceControllerProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = B83AC22B1A5E191C00A35BD6 /* PCKWKInterfaceControllerProvider.h */; };
 		B83AC22E1A5E191C00A35BD6 /* PCKWKInterfaceControllerProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = B83AC22C1A5E191C00A35BD6 /* PCKWKInterfaceControllerProvider.m */; };
@@ -239,6 +241,8 @@
 		AEB03EDD1A3FB366002404BC /* MapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapController.m; sourceTree = "<group>"; };
 		AED5709A1A3A4786004ABADA /* CorgisController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CorgisController.h; sourceTree = "<group>"; };
 		AED5709B1A3A4786004ABADA /* CorgisController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CorgisController.m; sourceTree = "<group>"; };
+		B35D67081B8D26C800703D89 /* WKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKExtension.h; sourceTree = "<group>"; };
+		B35D67091B8D26C800703D89 /* WKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKExtension.m; sourceTree = "<group>"; };
 		B83AC2271A5DF12400A35BD6 /* NotificationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
 		B83AC2281A5DF12400A35BD6 /* NotificationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
 		B83AC22B1A5E191C00A35BD6 /* PCKWKInterfaceControllerProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCKWKInterfaceControllerProvider.h; sourceTree = "<group>"; };
@@ -485,6 +489,8 @@
 				B83C323A1A4CE0FC0021F1A4 /* UIColor+PCK_StringToColor.h */,
 				B83C323B1A4CE0FC0021F1A4 /* UIColor+PCK_StringToColor.m */,
 				B83C31DE1A4CD9BF0021F1A4 /* WatchKit.h */,
+				B35D67081B8D26C800703D89 /* WKExtension.h */,
+				B35D67091B8D26C800703D89 /* WKExtension.m */,
 				B83C31DF1A4CD9BF0021F1A4 /* WKInterfaceButton.h */,
 				B83C31E01A4CD9BF0021F1A4 /* WKInterfaceButton.m */,
 				B83C31E11A4CD9BF0021F1A4 /* WKInterfaceButton+Spec.h */,
@@ -554,6 +560,7 @@
 				B83C320F1A4CD9BF0021F1A4 /* WKInterfaceGroup.h in Headers */,
 				B83C32111A4CD9BF0021F1A4 /* WKInterfaceGroup+Spec.h in Headers */,
 				B83C32121A4CD9BF0021F1A4 /* WKInterfaceImage.h in Headers */,
+				B35D670A1B8D26C800703D89 /* WKExtension.h in Headers */,
 				B83C321E1A4CD9BF0021F1A4 /* WKInterfaceSeparator+Spec.h in Headers */,
 				B83C32071A4CD9BF0021F1A4 /* WKInterfaceButton.h in Headers */,
 				B83C320A1A4CD9BF0021F1A4 /* WKInterfaceController.h in Headers */,
@@ -833,6 +840,7 @@
 				B83C321D1A4CD9BF0021F1A4 /* WKInterfaceSeparator.m in Sources */,
 				B83C32311A4CDA380021F1A4 /* PCKFakeSegue.m in Sources */,
 				B83C32291A4CD9BF0021F1A4 /* WKInterfaceTimer.m in Sources */,
+				B35D670B1B8D26C800703D89 /* WKExtension.m in Sources */,
 				B83C32261A4CD9BF0021F1A4 /* WKInterfaceTable.m in Sources */,
 				B83C32161A4CD9BF0021F1A4 /* WKInterfaceLabel.m in Sources */,
 				B83C32051A4CD9BF0021F1A4 /* PCKMessageCapturer.m in Sources */,
